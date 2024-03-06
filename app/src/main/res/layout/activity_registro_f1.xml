@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".RegistroF1">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recepcion del servicio"
+        android:textSize="30dp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de solicitud: " />
+
+    <EditText
+        android:id="@+id/DateSolicitud"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="00/00/00"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de atención: " />
+
+    <EditText
+        android:id="@+id/DateAtencion"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="00/00/00"/>
+
+    <EditText
+        android:id="@+id/HoraLlegada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora de llegada" />
+
+    <EditText
+        android:id="@+id/Lugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Campus, Facultad" />
+
+    <EditText
+        android:id="@+id/Edificio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Edificio, Área" />
+
+    <EditText
+        android:id="@+id/EncargadoAr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Encargado de área" />
+
+    <EditText
+        android:id="@+id/Telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Telefono"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:hint="Problematica" />
+
+    <Button
+        android:id="@+id/btnNext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Siguiente" />
+
+</LinearLayout>
